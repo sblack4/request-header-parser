@@ -1,0 +1,24 @@
+{
+  "name": "request-header-parser",
+  "version": "1.0.0",
+  "description": "via freeCodeCamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo hello world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sblack4/request-header-parser.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "freeCodeCamp"
+  ],
+  "author": "Steven Black",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sblack4/request-header-parser/issues"
+  },
+  "homepage": "https://github.com/sblack4/request-header-parser#readme"
+}
