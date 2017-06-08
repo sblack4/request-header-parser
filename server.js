@@ -16,13 +16,13 @@ app.all('/', function(req, res) {
   var ip = req.connection.remoteAddress;
   var lang = req.headers["accept-language"];
   var software = req.headers['user-agent'];
-  console.log(req);
+  // console.log(req);
   var userInfo = { 
     "ipaddress": ip
     , "language": lang
     , "software": software
   };
-  console.log(userInfo);
+  // console.log(userInfo);
   res.end(JSON.stringify(userInfo) + "\n");
 })
 
